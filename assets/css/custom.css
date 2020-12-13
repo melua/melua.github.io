@@ -1,0 +1,39 @@
+.picture {
+	background-image: url(../img/me2020.jpg);
+	background-position: center;
+	margin: auto;
+}
+
+
+.picture .line {
+	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-position: bottom;
+	width: inherit;
+	height: 0.2em;
+	position: absolute;
+	bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+	.picture {
+		width: 0;
+		height: 0;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+	.picture {
+		width: 118px;
+		height: 118px;
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	.picture {
+		width: 166px;
+		height: 166px;
+	}
+}
