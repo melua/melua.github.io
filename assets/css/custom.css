@@ -1,3 +1,38 @@
+@font-face {
+font-family: "PT Sans";
+src: url(../font/PTSans-Regular.ttf);
+}
+@font-face {
+font-family: "PT Sans Narrow";
+src: url(../font/PTSansNarrow-Regular.ttf);
+}
+@font-face {
+font-family: "PT Sans Caption";
+src: url(../font/PTSansCaption-Regular.ttf);
+}
+
+html, body {
+	font-family: 'PT Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans Caption';
+	font-weight: normal;
+}
+
+nav, footer {
+	font-family: 'PT Sans Caption';
+}
+
+strong, b {
+	font-weight: normal;
+}
+
+em, i {
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+}
+
 .picture {
 	background-image: url(../img/me2020.jpg);
 	background-position: center;
